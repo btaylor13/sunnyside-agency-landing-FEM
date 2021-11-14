@@ -11,6 +11,7 @@ body {
 .header {
   color: white;
   background-image: url(../images/desktop/image-header.jpg);
+  background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/desktop/image-header.jpg");
   background-size: cover;
   background-position: center bottom;
   height: 100vh; }
