@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; }
+
+.header {
+  color: white;
+  background-image: url(../images/desktop/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+  .header__heading {
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 8.75px;
+    margin-top: 5rem; }
+  .header__navigation {
+    padding: 1.5rem 2rem; }
+  .header__nav-link {
+    color: white;
+    font-family: "Barlow", sans-serif;
+    font-size: 1.125rem; }
+  .header__contact-link {
+    color: #23303e;
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 3rem;
+    padding: 0.5em 1em;
+    margin-left: 2rem; }
+  .header__contact-link:hover {
+    background-color: rgba(255, 255, 255, 0.26);
+    color: white;
+    transition: all 0.4s ease; }
+
+.transform__text-content {
+  width: 67%;
+  margin: 0 auto; }
+
+.transform__heading {
+  font-family: "Fraunces", serif;
+  font-weight: 700; }
+
+.transform__body {
+  font-family: "Barlow", sans-serif;
+  color: #818498; }
+
+.transform__btn {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #23303e;
+  font-weight: 700; }

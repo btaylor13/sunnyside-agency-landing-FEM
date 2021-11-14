@@ -1,0 +1,22 @@
+{
+  "name": "sunnyside-agency-landing-page-main",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Solution for Sunnyside Agency Landing Page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btaylor13/sunnyside-agency-landing-FEM.git"
+  },
+  "author": "Bridgett Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btaylor13/sunnyside-agency-landing-FEM/issues"
+  },
+  "homepage": "https://github.com/btaylor13/sunnyside-agency-landing-FEM#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

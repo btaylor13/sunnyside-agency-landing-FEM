@@ -1,0 +1,73 @@
+@import "base";
+@import "variables";
+
+// Header
+.header {
+  color: $color-white;
+  background-image: url(../images/desktop/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  &__heading {
+    font-family: $ff-display;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 8.75px;
+    margin-top: 5rem;
+  }
+
+  &__navigation {
+    padding: 1.5rem 2rem;
+  }
+
+  &__nav-link {
+    color: $color-white;
+    font-family: $ff-body;
+    font-size: $fs-body;
+  }
+
+  &__contact-link {
+    color: $color-blue-dark;
+    font-family: $ff-display;
+    text-transform: uppercase;
+    background-color: $color-white;
+    border-radius: 3rem;
+    padding: 0.5em 1em;
+    margin-left: 2rem;
+  }
+  &__contact-link:hover {
+    background-color: hsla(100, 100%, 100%, 0.26);
+    color: $color-white;
+    transition: all 0.4s ease;
+  }
+}
+
+// TRANSFORM SECTION
+.transform {
+  &__text-content {
+    width: 67%;
+    margin: 0 auto;
+  }
+
+  &__heading {
+    font-family: $ff-display;
+    font-weight: 700;
+  }
+
+  &__body {
+    font-family: $ff-body;
+    color: $color-blue-gray;
+  }
+
+  &__btn {
+    font-family: $ff-display;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color-blue-dark;
+    font-weight: 700;
+  }
+
+  &__image {
+  }
+}
