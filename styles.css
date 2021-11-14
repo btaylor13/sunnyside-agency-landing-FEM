@@ -156,11 +156,9 @@ body {
   background-position: center; }
   .services__container--design {
     color: #25564b;
-    background-image: url(images/desktop/image-graphic-design.jpg);
     background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/desktop/image-graphic-design.jpg"); }
   .services__container--photography {
     color: #23303e;
-    background-image: url(../images/desktop/image-photography.jpg);
     background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/desktop/image-photography.jpg"); }
 
 .services__text-content {
