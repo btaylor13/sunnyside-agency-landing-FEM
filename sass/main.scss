@@ -22,6 +22,9 @@
   &__navigation {
     padding: 1.5rem 2rem;
   }
+  &__navigation-right {
+    column-gap: 2rem;
+  }
 
   &__nav-link {
     color: $color-white;
@@ -43,7 +46,7 @@
     background-color: $color-white;
     border-radius: 3rem;
     padding: 0.7rem 1.5rem;
-    margin-left: 2rem;
+    margin-left: 0.8rem;
   }
   &__contact-link:hover {
     background-color: hsla(100, 100%, 100%, 0.26);
@@ -102,19 +105,12 @@
       background-color: $color-yellow-light;
       color: $color-blue-dark;
     }
-
-    // &__navigation-right {
-    //   display: flex;
-    //   flex-direction: column;
-    //   width: 80%;
-    //   height: 60vh;
-    //   align-items: center;
-    //   justify-content: center;
-    // }
   }
-  // bootstrap styling
-  .navbar-toggler-icon {
-    padding-right: 0;
+  // bootstrap navbar styling
+
+  .navbar-dark .navbar-toggler {
+    border-color: transparent;
+    padding-inline: 0;
   }
 }
 
@@ -455,6 +451,7 @@
   &__nav-link:hover {
     color: $color-white;
   }
+
   &__social {
     column-gap: 1.5rem;
     margin-bottom: 5rem;
@@ -476,6 +473,3 @@
 }
 
 // TESTING NAVIGATIONS STUFF
-.navbar-toggler-icon {
-  background-color: orangered;
-}

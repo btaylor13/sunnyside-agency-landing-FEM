@@ -24,6 +24,8 @@ body {
     font-size: 3.5rem; }
   .header__navigation {
     padding: 1.5rem 2rem; }
+  .header__navigation-right {
+    column-gap: 2rem; }
   .header__nav-link {
     color: white;
     font-family: "Barlow", sans-serif;
@@ -39,7 +41,7 @@ body {
     background-color: white;
     border-radius: 3rem;
     padding: 0.7rem 1.5rem;
-    margin-left: 2rem; }
+    margin-left: 0.8rem; }
   .header__contact-link:hover {
     background-color: rgba(255, 255, 255, 0.26);
     color: white;
@@ -80,8 +82,9 @@ body {
   .header__contact-link:hover {
     background-color: rgba(250, 212, 0, 0.25);
     color: #23303e; }
-  .navbar-toggler-icon {
-    padding-right: 0; } }
+  .navbar-dark .navbar-toggler {
+    border-color: transparent;
+    padding-inline: 0; } }
 
 .transform__text-content-container {
   padding: 0;
@@ -333,6 +336,3 @@ body {
 
 .attribution {
   margin-bottom: 2rem; }
-
-.navbar-toggler-icon {
-  background-color: orangered; }
