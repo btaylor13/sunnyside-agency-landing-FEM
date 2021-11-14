@@ -48,6 +48,7 @@
 .transform {
   &__text-content-container {
     padding: 0;
+    max-height: 600px;
   }
 
   &__text-content {
@@ -87,6 +88,7 @@
 .standout {
   &__text-content-container {
     padding: 0;
+    max-height: 600px;
   }
   &__text-content {
     width: 67%;
@@ -156,25 +158,62 @@
 // TESTIMONIALS SECTION
 
 .testimonials {
-  height: 100vh;
+  padding-block: 10rem;
   &__text-content {
+    width: 89%;
+    margin: 0 auto;
   }
   &__heading {
+    font-family: $ff-display;
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: $color-blue-gray-light;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    letter-spacing: 5px;
   }
+  &__item {
+    padding: 1.5rem;
+  }
+
   &__img {
-    &--1 {
-    }
-    &--2 {
-    }
-    &--3 {
-    }
+    margin-bottom: 2rem;
+  }
+
+  &__imgfile {
+    height: 4.5rem;
+    border-radius: 50%;
   }
   &__body {
+    font-family: $ff-body;
+    color: $color-blue-gray-dark;
+    font-size: $ff-body;
+    line-height: 2rem;
+    letter-spacing: -0.13px;
+    font-weight: 600;
+    margin-bottom: 2rem;
   }
-  &__client-info {
-  }
+
   &__name {
+    font-family: $ff-display;
+    font-weight: 700;
+    color: $color-blue-dark;
   }
   &__role {
+    font-family: $ff-body;
+    color: $color-blue-gray-light;
+    margin-top: -0.7rem;
+  }
+}
+
+// TESTIMONIALS MEDIA QUERIES
+@media only screen and (max-width: 30rem) {
+  .testimonials {
+    padding-block: 3.5rem;
+
+    &__heading {
+      font-size: 1rem;
+      margin-bottom: 2.5rem;
+    }
   }
 }
