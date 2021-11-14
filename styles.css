@@ -39,6 +39,9 @@ body {
     color: white;
     transition: all 0.4s ease; }
 
+.transform__text-content-container {
+  padding: 0; }
+
 .transform__text-content {
   width: 67%;
   margin: 0 auto; }
@@ -57,3 +60,45 @@ body {
   text-decoration: none;
   color: #23303e;
   font-weight: 700; }
+
+.transform__image-container {
+  padding: 0; }
+
+.transform__image {
+  width: 100%;
+  height: auto; }
+
+.standout__text-content-container {
+  padding: 0; }
+
+.standout__text-content {
+  width: 67%;
+  margin: 0 auto; }
+
+.standout__heading {
+  font-family: "Fraunces", serif;
+  font-weight: 700; }
+
+.standout__body {
+  font-family: "Barlow", sans-serif;
+  color: #818498; }
+
+.standout__btn {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #23303e;
+  font-weight: 700; }
+
+.standout__image-container {
+  padding: 0; }
+
+.standout__image {
+  width: 100%;
+  height: auto; }
+
+.services__heading {
+  font-family: "Fraunces", serif; }
+
+.services__body {
+  font-family: "Barlow", sans-serif; }
