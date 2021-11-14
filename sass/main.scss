@@ -6,7 +6,7 @@
   color: $color-white;
   background-image: url(../images/desktop/image-header.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   height: 100vh;
 
   &__heading {
@@ -45,6 +45,22 @@
     transition: all 0.4s ease;
   }
 }
+// MEDIA QUERIES FOR HEADER
+@media only screen and (max-width: 40rem) {
+  .header {
+    &__heading {
+      font-size: 2.5rem;
+      padding-inline: 1rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 35rem) {
+  .header {
+    &__heading {
+    }
+  }
+}
 
 // TRANSFORM SECTION
 .transform {
@@ -76,6 +92,33 @@
     text-decoration: none;
     color: $color-blue-dark;
     font-weight: 700;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-blue-dark;
+    }
+
+    // underline effect
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 111%;
+      height: 7px;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 3rem;
+      background-color: $color-yellow-light;
+      z-index: -4;
+    }
+
+    &:hover::after {
+      background-color: $color-yellow;
+      transition: all 0.3s ease-in-out;
+    }
   }
 
   &__image-container {
@@ -116,6 +159,33 @@
     text-decoration: none;
     color: $color-blue-dark;
     font-weight: 700;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-blue-dark;
+    }
+
+    // underline effect
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 111%;
+      height: 7px;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 3rem;
+      background-color: $color-red-light;
+      z-index: -4;
+    }
+
+    &:hover::after {
+      background-color: $color-red;
+      transition: all 0.3s ease-in-out;
+    }
   }
   &__image-container {
     padding: 0;
