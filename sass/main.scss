@@ -25,7 +25,9 @@
   &__nav-link {
     color: $color-white;
     font-family: $ff-body;
-    font-size: $fs-body;
+    &:hover {
+      color: $color-white;
+    }
   }
 
   &__contact-link {
@@ -273,5 +275,40 @@
         background-image: url("../images/mobile/image-gallery-sugar-cubes.jpg");
       }
     }
+  }
+}
+
+// FOOTER SECTION
+.footer {
+  background-color: $color-footer-bg;
+  &__content {
+  }
+  &__logo-img {
+    margin-top: 3.3rem;
+    height: 33px;
+  }
+  &__nav {
+    list-style: none;
+    display: flex;
+    padding: 3rem 3rem 4rem 3rem;
+    column-gap: 3rem;
+    font-family: $ff-body;
+    font-weight: 600;
+    font-size: $fs-body;
+  }
+  &__nav-link {
+    cursor: pointer;
+    color: $color-cyan-moderate;
+  }
+  &__nav-link:hover,
+  &__social-icon:hover {
+    color: $color-white;
+  }
+  &__social {
+    column-gap: 1.5rem;
+    margin-bottom: 5rem;
+  }
+  &__social-icon {
+    cursor: pointer;
   }
 }
