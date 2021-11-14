@@ -56,6 +56,7 @@
   &__text-content {
     width: 67%;
     margin: 0 auto;
+    padding-block: 2rem;
   }
 
   &__heading {
@@ -95,6 +96,7 @@
   &__text-content {
     width: 67%;
     margin: 0 auto;
+    padding-block: 2rem;
   }
 
   &__heading {
@@ -123,6 +125,9 @@
     height: auto;
   }
 }
+
+// MEDIA QUERIES FOR TRANSFORM AND STANDOUT
+
 // SERVICES SECTION
 .services {
   &__container {
@@ -141,7 +146,7 @@
   }
 
   &__text-content {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
   }
 
@@ -149,11 +154,13 @@
     font-family: $ff-display;
     font-weight: 700;
     font-size: 1.75rem;
+    margin-bottom: 1.3rem;
   }
   &__body {
     font-family: $ff-body;
     font-size: 1rem;
     line-height: 1.6875rem;
+    margin-bottom: 3.5rem;
   }
 }
 
@@ -300,8 +307,7 @@
     cursor: pointer;
     color: $color-cyan-moderate;
   }
-  &__nav-link:hover,
-  &__social-icon:hover {
+  &__nav-link:hover {
     color: $color-white;
   }
   &__social {
@@ -311,4 +317,15 @@
   &__social-icon {
     cursor: pointer;
   }
+  &__social-icon:hover {
+    filter: invert(100%) grayscale(100%) brightness(2) saturate(1);
+  }
+  &__nav-link:hover,
+  &__social-icon:hover {
+    transition: all 0.3s ease;
+  }
+}
+
+.attribution {
+  margin-bottom: 2rem;
 }

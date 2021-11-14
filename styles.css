@@ -47,7 +47,8 @@ body {
 
 .transform__text-content {
   width: 67%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-block: 2rem; }
 
 .transform__heading {
   font-family: "Fraunces", serif;
@@ -78,7 +79,8 @@ body {
 
 .standout__text-content {
   width: 67%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-block: 2rem; }
 
 .standout__heading {
   font-family: "Fraunces", serif;
@@ -116,18 +118,20 @@ body {
     background-image: url(../images/desktop/image-photography.jpg); }
 
 .services__text-content {
-  width: 70%;
+  width: 60%;
   margin: 0 auto; }
 
 .services__heading {
   font-family: "Fraunces", serif;
   font-weight: 700;
-  font-size: 1.75rem; }
+  font-size: 1.75rem;
+  margin-bottom: 1.3rem; }
 
 .services__body {
   font-family: "Barlow", sans-serif;
   font-size: 1rem;
-  line-height: 1.6875rem; }
+  line-height: 1.6875rem;
+  margin-bottom: 3.5rem; }
 
 .testimonials {
   padding-block: 10rem; }
@@ -225,10 +229,17 @@ body {
   .footer__nav-link {
     cursor: pointer;
     color: #458c7e; }
-  .footer__nav-link:hover, .footer__social-icon:hover {
+  .footer__nav-link:hover {
     color: white; }
   .footer__social {
     column-gap: 1.5rem;
     margin-bottom: 5rem; }
   .footer__social-icon {
     cursor: pointer; }
+  .footer__social-icon:hover {
+    filter: invert(100%) grayscale(100%) brightness(2) saturate(1); }
+  .footer__nav-link:hover, .footer__social-icon:hover {
+    transition: all 0.3s ease; }
+
+.attribution {
+  margin-bottom: 2rem; }
