@@ -26,26 +26,62 @@ body {
     padding: 1.5rem 2rem; }
   .header__nav-link {
     color: white;
-    font-family: "Barlow", sans-serif; }
+    font-family: "Barlow", sans-serif;
+    padding: 0.2em; }
     .header__nav-link:hover {
       color: white; }
+  .header__navbar-collapse {
+    justify-content: flex-end; }
   .header__contact-link {
     color: #23303e;
     font-family: "Fraunces", serif;
     text-transform: uppercase;
     background-color: white;
     border-radius: 3rem;
-    padding: 0.5em 1em;
+    padding: 0.7rem 1.5rem;
     margin-left: 2rem; }
   .header__contact-link:hover {
     background-color: rgba(255, 255, 255, 0.26);
     color: white;
     transition: all 0.4s ease; }
 
-@media only screen and (max-width: 40rem) {
+@media only screen and (max-width: 47.999rem) {
   .header__heading {
     font-size: 2.5rem;
-    padding-inline: 1rem; } }
+    padding-inline: 1rem; }
+  .header__navbar-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding-block: 2.7rem;
+    margin-top: 2.5rem;
+    position: relative; }
+    .header__navbar-collapse::before {
+      content: "";
+      width: 60px;
+      border-width: 30px;
+      border-color: transparent white transparent transparent;
+      border-style: solid;
+      position: absolute;
+      top: -1.86rem;
+      right: 0; }
+  .header__nav-link {
+    color: #818498;
+    font-weight: 600;
+    margin-bottom: 1.5rem; }
+  .header__nav-link:hover {
+    color: #23303e; }
+  .header__contact-link {
+    background-color: #fad400;
+    color: #23303e;
+    margin: 0; }
+  .header__contact-link:hover {
+    background-color: rgba(250, 212, 0, 0.25);
+    color: #23303e; }
+  .navbar-toggler-icon {
+    padding-right: 0; } }
 
 .transform__text-content-container {
   padding: 0;
@@ -297,3 +333,6 @@ body {
 
 .attribution {
   margin-bottom: 2rem; }
+
+.navbar-toggler-icon {
+  background-color: orangered; }

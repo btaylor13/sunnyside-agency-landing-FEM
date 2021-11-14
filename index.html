@@ -54,28 +54,58 @@
             d-flex
             align-items-center
             justify-content-between
+            navbar navbar-expand-md
           "
         >
-          <div class="logo-container header__navigation-left">
-            <img src="images/logo.svg" alt="logo" class="logo" />
-          </div>
+          <div class="container-fluid">
+            <div class="logo-container header__navigation-left">
+              <a class="navbar-brand" href="index.html"
+                ><img src="images/logo.svg" alt="logo" class="logo"
+              /></a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggler"
+              aria-controls="navbarToggler"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <ul class="header__navigation-right nav flex-column flex-md-row">
-            <li class="nav-item header__nav-item">
-              <a class="nav-link header__nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item header__nav-item">
-              <a class="nav-link header__nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item header__nav-item">
-              <a class="nav-link header__nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item header__nav-item header__contact-btn">
-              <a class="nav-link header__nav-link header__contact-link" href="#"
-                >Contact</a
+            <div
+              class="collapse navbar-collapse header__navbar-collapse"
+              id="navbarToggler"
+            >
+              <ul
+                class="
+                  header__navigation-right
+                  nav
+                  flex-column flex-md-row
+                  mb-2 mb-lg-0
+                "
               >
-            </li>
-          </ul>
+                <li class="nav-item header__nav-item">
+                  <a class="nav-link header__nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item header__nav-item">
+                  <a class="nav-link header__nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item header__nav-item">
+                  <a class="nav-link header__nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item header__nav-item header__contact-btn">
+                  <a
+                    class="nav-link header__nav-link header__contact-link"
+                    href="#"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
         <!-- End of Navigation -->
         <!-- Header Text Content -->
