@@ -15,6 +15,7 @@
     font-weight: 900;
     letter-spacing: 8.75px;
     margin-top: 5rem;
+    font-size: 3.5rem;
   }
 
   &__navigation {
@@ -62,6 +63,7 @@
   &__body {
     font-family: $ff-body;
     color: $color-blue-gray;
+    line-height: 1.875rem;
   }
 
   &__btn {
@@ -99,6 +101,7 @@
   &__body {
     font-family: $ff-body;
     color: $color-blue-gray;
+    line-height: 1.875rem;
   }
 
   &__btn {
@@ -119,12 +122,59 @@
 // SERVICES SECTION
 .services {
   &__container {
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &--design {
+      color: $color-cyan-dark;
+      background-image: url(../images/desktop/image-graphic-design.jpg);
+    }
+    &--photography {
+      color: $color-blue-dark;
+      background-image: url(../images/desktop/image-photography.jpg);
+    }
+  }
+
+  &__text-content {
+    width: 70%;
+    margin: 0 auto;
   }
 
   &__heading {
     font-family: $ff-display;
+    font-weight: 700;
+    font-size: 1.75rem;
   }
   &__body {
     font-family: $ff-body;
+    font-size: 1rem;
+    line-height: 1.6875rem;
+  }
+}
+
+// TESTIMONIALS SECTION
+
+.testimonials {
+  height: 100vh;
+  &__text-content {
+  }
+  &__heading {
+  }
+  &__img {
+    &--1 {
+    }
+    &--2 {
+    }
+    &--3 {
+    }
+  }
+  &__body {
+  }
+  &__client-info {
+  }
+  &__name {
+  }
+  &__role {
   }
 }
