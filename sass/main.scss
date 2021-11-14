@@ -309,6 +309,7 @@
     height: 447px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
     &--1 {
       background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
@@ -319,11 +320,11 @@
       grid-area: item2;
     }
     &--3 {
-      background-image: url("../images/desktop/image-gallery-cone.jpg");
+      background-image: url("/../images/desktop/image-gallery-cone.jpg");
       grid-area: item3;
     }
     &--4 {
-      background-image: url("../images/desktop/image-gallery-sugarcubes.jpg");
+      background-image: url("/../images/desktop/image-gallery-sugarcubes.jpg");
       grid-area: item4;
     }
   }
@@ -339,6 +340,7 @@
 
     &__item {
       max-height: 250px;
+      background-position: initial;
 
       &--1 {
         background-image: url("../images/mobile/image-gallery-milkbottles.jpg");
