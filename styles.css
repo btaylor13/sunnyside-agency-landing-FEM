@@ -156,10 +156,12 @@ body {
   background-position: center; }
   .services__container--design {
     color: #25564b;
-    background-image: url(../images/desktop/image-graphic-design.jpg); }
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/desktop/image-graphic-design.jpg"); }
   .services__container--photography {
     color: #23303e;
-    background-image: url(../images/desktop/image-photography.jpg); }
+    background-image: url(../images/desktop/image-photography.jpg);
+    background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/desktop/image-photography.jpg"); }
 
 .services__text-content {
   width: 60%;
@@ -233,15 +235,19 @@ body {
   background-position: center; }
   .img-gallery__item--1 {
     background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
+    background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/desktop/image-gallery-milkbottles.jpg");
     grid-area: item1; }
   .img-gallery__item--2 {
     background-image: url("../images/desktop/image-gallery-orange.jpg");
+    background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/desktop/image-gallery-orange.jpg");
     grid-area: item2; }
   .img-gallery__item--3 {
     background-image: url("/../images/desktop/image-gallery-cone.jpg");
+    background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/desktop/image-gallery-cone.jpg");
     grid-area: item3; }
   .img-gallery__item--4 {
     background-image: url("/../images/desktop/image-gallery-sugarcubes.jpg");
+    background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/desktop/image-gallery-sugarcubes.jpg");
     grid-area: item4; }
 
 @media only screen and (max-width: 45rem) {
@@ -251,13 +257,17 @@ body {
     max-height: 250px;
     background-position: initial; }
     .img-gallery__item--1 {
-      background-image: url("../images/mobile/image-gallery-milkbottles.jpg"); }
+      background-image: url("../images/mobile/image-gallery-milkbottles.jpg");
+      background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/mobile/image-gallery-milkbottles.jpg"); }
     .img-gallery__item--2 {
-      background-image: url("../images/mobile/image-gallery-orange.jpg"); }
+      background-image: url("../images/mobile/image-gallery-orange.jpg");
+      background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/mobile/image-gallery-orange.jpg"); }
     .img-gallery__item--3 {
-      background-image: url("../images/mobile/image-gallery-cone.jpg"); }
+      background-image: url("../images/mobile/image-gallery-cone.jpg");
+      background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/mobile/image-gallery-cone.jpg"); }
     .img-gallery__item--4 {
-      background-image: url("../images/mobile/image-gallery-sugar-cubes.jpg"); } }
+      background-image: url("../images/mobile/image-gallery-sugar-cubes.jpg");
+      background-image: url("https://btaylor13.github.io/sunnyside-agency-landing-FEM/images/mobile/image-gallery-sugar-cubes.jpg"); } }
 
 .footer {
   background-color: #91d4c7; }
