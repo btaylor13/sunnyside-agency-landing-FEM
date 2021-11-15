@@ -97,22 +97,26 @@ body {
 
 .transform__heading {
   font-family: "Fraunces", serif;
+  font-size: 2.5rem;
   font-weight: 700; }
 
 .transform__body {
   font-family: "Barlow", sans-serif;
   color: #818498;
-  line-height: 1.875rem; }
+  line-height: 1.875rem;
+  font-weight: 600; }
 
 .transform__btn {
   font-family: "Fraunces", serif;
   text-transform: uppercase;
   text-decoration: none;
   color: #23303e;
+  font-size: 0.9375rem;
   font-weight: 700;
   display: inline-block;
   position: relative;
-  cursor: pointer; }
+  cursor: pointer;
+  letter-spacing: 1px; }
   .transform__btn:hover {
     color: #23303e; }
   .transform__btn::after {
@@ -152,18 +156,21 @@ body {
 
 .standout__body {
   font-family: "Barlow", sans-serif;
+  font-weight: 600;
   color: #818498;
   line-height: 1.875rem; }
 
 .standout__btn {
   font-family: "Fraunces", serif;
+  font-size: 0.9375rem;
   text-transform: uppercase;
   text-decoration: none;
   color: #23303e;
   font-weight: 700;
   display: inline-block;
   position: relative;
-  cursor: pointer; }
+  cursor: pointer;
+  letter-spacing: 1px; }
   .standout__btn:hover {
     color: #23303e; }
   .standout__btn::after {
